@@ -24,7 +24,7 @@ Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用
 
 Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
 
-`JavaScript` · ⭐ 158,842 · Starred 2021-08-31
+`JavaScript` · ⭐ 158,845 · Starred 2021-08-31
 
 `agent` `ai` `context-engineering` `deepseek` `interview` `java` `mcp` `mysql`
 
@@ -66,7 +66,7 @@ Jupiter是一款性能非常不错的, 轻量级的分布式服务框架
 
 😮 Core Interview Questions & Answers For Experienced Java(Backend) Developers | 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识
 
-`Java` · ⭐ 79,128 · Starred 2021-01-27
+`Java` · ⭐ 79,129 · Starred 2021-01-27
 
 `advanced-java` `distributed-search-engine` `distributed-systems` `doocs` `dubbo` `elasticsearch` `eureka` `feign`
 
@@ -76,7 +76,7 @@ Jupiter是一款性能非常不错的, 轻量级的分布式服务框架
 
 A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
 
-`Python` · ⭐ 75,544 · Starred 2026-09-23
+`Python` · ⭐ 75,553 · Starred 2026-09-23
 
 `agent-skills` `ai-agents` `antigravity` `automation` `claude` `claude-code` `codex` `composio`
 
@@ -86,7 +86,7 @@ A curated list of awesome Claude Skills, resources, and tools for customizing Cl
 
 ✨ 开源、免费、一站式 Java 权限认证框架，让鉴权变得简单、优雅！—— 登录认证、权限认证、分布式 Session 会话、微服务网关鉴权、SSO 单点登录、OAuth2.0 统一认证、jwt 集成、API Key 秘钥授权、API 参数签名
 
-`Java` · ⭐ 19,059 · Starred 2026-09-23
+`Java` · ⭐ 19,058 · Starred 2026-09-23
 
 `aouth2` `authorization` `java` `springcloud` `sso` `token`
 
