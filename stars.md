@@ -1,6 +1,6 @@
 # ⭐ GitHub Stars
 
-共收藏 **12** 个 GitHub 项目。
+共收藏 **14** 个 GitHub 项目。
 
 ## AI / Agent
 
@@ -8,7 +8,7 @@
 
 A systematic AI Agent development tutorial covering LLM agents, RAG, tool use, memory systems, multi-agent systems, LangChain, LangGraph, MCP, and agentic RL.｜从零开始学 AI Agent 开发 | 系统、全面、实战导向的 Agent 开发教程 | 每日自动追踪 arXiv 最新论文 | Learn AI Agent Development from Scratch
 
-`HTML` · ⭐ 547 · Starred 2026-09-23
+`HTML` · ⭐ 548 · Starred 2026-09-23
 
 `agent-learning` `agentic-workflow` `ai-agent` `ai-agent-tutorial` `dspy` `grpo` `langchain` `large-language-models`
 
@@ -16,7 +16,7 @@ A systematic AI Agent development tutorial covering LLM agents, RAG, tool use, m
 
 Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用、Agent 工具、开源复现与独立评测，附中文上手指南，每日自动收录 GitHub 热门项目。
 
-`HTML` · ⭐ 64 · Starred 2026-09-23
+`HTML` · ⭐ 66 · Starred 2026-09-23
 
 `ai-agent` `awesome` `awesome-list` `chinese` `jev` `llm` `structured-output` `system-one`
 
@@ -24,7 +24,7 @@ Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用
 
 Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
 
-`JavaScript` · ⭐ 158,829 · Starred 2021-08-31
+`JavaScript` · ⭐ 158,842 · Starred 2021-08-31
 
 `agent` `ai` `context-engineering` `deepseek` `interview` `java` `mcp` `mysql`
 
@@ -70,7 +70,25 @@ Jupiter是一款性能非常不错的, 轻量级的分布式服务框架
 
 `advanced-java` `distributed-search-engine` `distributed-systems` `doocs` `dubbo` `elasticsearch` `eureka` `feign`
 
+## DevTools
+
+### [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
+
+A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
+
+`Python` · ⭐ 75,544 · Starred 2026-09-23
+
+`agent-skills` `ai-agents` `antigravity` `automation` `claude` `claude-code` `codex` `composio`
+
 ## Others
+
+### [dromara/Sa-Token](https://github.com/dromara/Sa-Token)
+
+✨ 开源、免费、一站式 Java 权限认证框架，让鉴权变得简单、优雅！—— 登录认证、权限认证、分布式 Session 会话、微服务网关鉴权、SSO 单点登录、OAuth2.0 统一认证、jwt 集成、API Key 秘钥授权、API 参数签名
+
+`Java` · ⭐ 19,059 · Starred 2026-09-23
+
+`aouth2` `authorization` `java` `springcloud` `sso` `token`
 
 ### [Chanzhaoyu/chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web)
 
@@ -82,7 +100,7 @@ Jupiter是一款性能非常不错的, 轻量级的分布式服务框架
 
 You like pytorch? You like micrograd? You love tinygrad! ❤️ 
 
-`Python` · ⭐ 33,642 · Starred 2022-03-21
+`Python` · ⭐ 33,643 · Starred 2022-03-21
 
 ### [lllhhh/BooksKeeper](https://github.com/lllhhh/BooksKeeper)
 

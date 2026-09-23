@@ -4,19 +4,19 @@
 
 ## 📊 Statistics
 
-- ⭐ Total: **12**
-- 📂 Categories: **5**
+- ⭐ Total: **14**
+- 📂 Categories: **6**
 
 ### Languages
 
+- Java: 3
 - JavaScript: 3
+- Python: 2
 - HTML: 2
-- Java: 2
 - TypeScript: 1
 - Vue: 1
-- Python: 1
 - TeX: 1
 
 👉 [查看全部收藏](stars.md)
 
-_Last updated: 2026-09-23 09:46 UTC_
+_Last updated: 2026-09-23 18:25 UTC_

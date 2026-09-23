@@ -1,5 +1,56 @@
 [
   {
+    "name": "Sa-Token",
+    "full_name": "dromara/Sa-Token",
+    "url": "https://github.com/dromara/Sa-Token",
+    "description": "✨ 开源、免费、一站式 Java 权限认证框架，让鉴权变得简单、优雅！—— 登录认证、权限认证、分布式 Session 会话、微服务网关鉴权、SSO 单点登录、OAuth2.0 统一认证、jwt 集成、API Key 秘钥授权、API 参数签名",
+    "language": "Java",
+    "topics": [
+      "aouth2",
+      "authorization",
+      "java",
+      "springcloud",
+      "sso",
+      "token"
+    ],
+    "stars": 19059,
+    "forks": 2914,
+    "archived": false,
+    "homepage": "https://sa-token.com",
+    "starred_at": "2026-09-23T10:05:41Z"
+  },
+  {
+    "name": "awesome-claude-skills",
+    "full_name": "ComposioHQ/awesome-claude-skills",
+    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "antigravity",
+      "automation",
+      "claude",
+      "claude-code",
+      "codex",
+      "composio",
+      "cursor",
+      "developer-tools",
+      "gemini-cli",
+      "mcp",
+      "openai-codex",
+      "rube",
+      "saas",
+      "skill",
+      "workflow-automation"
+    ],
+    "stars": 75544,
+    "forks": 8763,
+    "archived": false,
+    "homepage": "",
+    "starred_at": "2026-09-23T10:04:52Z"
+  },
+  {
     "name": "agent_learning",
     "full_name": "Haozhe-Xing/agent_learning",
     "url": "https://github.com/Haozhe-Xing/agent_learning",
@@ -20,7 +71,7 @@
       "multi-agents",
       "rag"
     ],
-    "stars": 547,
+    "stars": 548,
     "forks": 84,
     "archived": false,
     "homepage": "https://haozhe-xing.github.io/agent_learning/",
@@ -44,7 +95,7 @@
       "typesafe",
       "typesafe-ai"
     ],
-    "stars": 64,
+    "stars": 66,
     "forks": 17,
     "archived": false,
     "homepage": "https://code.jiangshu.ai/awesome-jev-zh/",
@@ -78,7 +129,7 @@
       "webui"
     ],
     "stars": 88806,
-    "forks": 59001,
+    "forks": 58994,
     "archived": false,
     "homepage": "https://nextchat.club",
     "starred_at": "2023-05-23T07:37:36Z"
@@ -91,7 +142,7 @@
     "language": "Vue",
     "topics": [],
     "stars": 31440,
-    "forks": 10664,
+    "forks": 10662,
     "archived": true,
     "homepage": "",
     "starred_at": "2023-05-22T07:36:11Z"
@@ -103,7 +154,7 @@
     "description": "You like pytorch? You like micrograd? You love tinygrad! ❤️ ",
     "language": "Python",
     "topics": [],
-    "stars": 33642,
+    "stars": 33643,
     "forks": 4348,
     "archived": false,
     "homepage": "",
@@ -143,7 +194,7 @@
       "springai",
       "system-design"
     ],
-    "stars": 158829,
+    "stars": 158842,
     "forks": 46140,
     "archived": false,
     "homepage": "https://javaguide.cn",
@@ -178,7 +229,7 @@
       "zookeeper"
     ],
     "stars": 79128,
-    "forks": 19149,
+    "forks": 19150,
     "archived": false,
     "homepage": "https://java.doocs.org",
     "starred_at": "2021-01-27T14:06:11Z"
