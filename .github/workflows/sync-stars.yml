@@ -26,7 +26,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         # 替换为你的github用户名
-        run: stargazed -u 你的github用户名
+        run: stargazed -u sailcode
 
       - name: Commit & Push changes
         run: |
