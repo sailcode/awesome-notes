@@ -2,7 +2,7 @@ name: Update GitHub Stars
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 */2 * * *"
 
 permissions:
   contents: write
