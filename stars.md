@@ -1,14 +1,30 @@
 # ⭐ GitHub Stars
 
-共收藏 **10** 个 GitHub 项目。
+共收藏 **12** 个 GitHub 项目。
 
 ## AI / Agent
+
+### [Haozhe-Xing/agent_learning](https://github.com/Haozhe-Xing/agent_learning)
+
+A systematic AI Agent development tutorial covering LLM agents, RAG, tool use, memory systems, multi-agent systems, LangChain, LangGraph, MCP, and agentic RL.｜从零开始学 AI Agent 开发 | 系统、全面、实战导向的 Agent 开发教程 | 每日自动追踪 arXiv 最新论文 | Learn AI Agent Development from Scratch
+
+`HTML` · ⭐ 547 · Starred 2026-09-23
+
+`agent-learning` `agentic-workflow` `ai-agent` `ai-agent-tutorial` `dspy` `grpo` `langchain` `large-language-models`
+
+### [yzfly/awesome-jev-zh](https://github.com/yzfly/awesome-jev-zh)
+
+Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用、Agent 工具、开源复现与独立评测，附中文上手指南，每日自动收录 GitHub 热门项目。
+
+`HTML` · ⭐ 64 · Starred 2026-09-23
+
+`ai-agent` `awesome` `awesome-list` `chinese` `jev` `llm` `structured-output` `system-one`
 
 ### [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)
 
 Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
 
-`JavaScript` · ⭐ 158,828 · Starred 2021-08-31
+`JavaScript` · ⭐ 158,829 · Starred 2021-08-31
 
 `agent` `ai` `context-engineering` `deepseek` `interview` `java` `mcp` `mysql`
 
@@ -18,7 +34,7 @@ Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分
 
 ✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows.
 
-`TypeScript` · ⭐ 88,807 · Starred 2023-05-23
+`TypeScript` · ⭐ 88,806 · Starred 2023-05-23
 
 `calclaude` `chatgpt` `claude` `cross-platform` `desktop` `fe` `gemini` `gemini-pro`
 

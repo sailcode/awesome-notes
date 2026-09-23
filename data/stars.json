@@ -1,5 +1,56 @@
 [
   {
+    "name": "agent_learning",
+    "full_name": "Haozhe-Xing/agent_learning",
+    "url": "https://github.com/Haozhe-Xing/agent_learning",
+    "description": "A systematic AI Agent development tutorial covering LLM agents, RAG, tool use, memory systems, multi-agent systems, LangChain, LangGraph, MCP, and agentic RL.｜从零开始学 AI Agent 开发 | 系统、全面、实战导向的 Agent 开发教程 | 每日自动追踪 arXiv 最新论文 | Learn AI Agent Development from Scratch",
+    "language": "HTML",
+    "topics": [
+      "agent-learning",
+      "agentic-workflow",
+      "ai-agent",
+      "ai-agent-tutorial",
+      "dspy",
+      "grpo",
+      "langchain",
+      "large-language-models",
+      "llm",
+      "mcp",
+      "memory-system",
+      "multi-agents",
+      "rag"
+    ],
+    "stars": 547,
+    "forks": 84,
+    "archived": false,
+    "homepage": "https://haozhe-xing.github.io/agent_learning/",
+    "starred_at": "2026-09-23T09:22:59Z"
+  },
+  {
+    "name": "awesome-jev-zh",
+    "full_name": "yzfly/awesome-jev-zh",
+    "url": "https://github.com/yzfly/awesome-jev-zh",
+    "description": "Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用、Agent 工具、开源复现与独立评测，附中文上手指南，每日自动收录 GitHub 热门项目。",
+    "language": "HTML",
+    "topics": [
+      "ai-agent",
+      "awesome",
+      "awesome-list",
+      "chinese",
+      "jev",
+      "llm",
+      "structured-output",
+      "system-one",
+      "typesafe",
+      "typesafe-ai"
+    ],
+    "stars": 64,
+    "forks": 17,
+    "archived": false,
+    "homepage": "https://code.jiangshu.ai/awesome-jev-zh/",
+    "starred_at": "2026-09-23T09:22:19Z"
+  },
+  {
     "name": "NextChat",
     "full_name": "ChatGPTNextWeb/NextChat",
     "url": "https://github.com/ChatGPTNextWeb/NextChat",
@@ -26,8 +77,8 @@
       "vercel",
       "webui"
     ],
-    "stars": 88807,
-    "forks": 59002,
+    "stars": 88806,
+    "forks": 59001,
     "archived": false,
     "homepage": "https://nextchat.club",
     "starred_at": "2023-05-23T07:37:36Z"
@@ -92,8 +143,8 @@
       "springai",
       "system-design"
     ],
-    "stars": 158828,
-    "forks": 46141,
+    "stars": 158829,
+    "forks": 46140,
     "archived": false,
     "homepage": "https://javaguide.cn",
     "starred_at": "2021-08-31T04:00:53Z"
