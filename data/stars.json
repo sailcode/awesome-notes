@@ -1,5 +1,233 @@
 [
   {
+    "name": "echarts",
+    "full_name": "apache/echarts",
+    "url": "https://github.com/apache/echarts",
+    "description": "Apache ECharts is a powerful, interactive charting and data visualization library for browser",
+    "language": "TypeScript",
+    "topics": [
+      "apache",
+      "canvas",
+      "charting-library",
+      "charts",
+      "data-visualization",
+      "data-viz",
+      "echarts",
+      "svg",
+      "visualization"
+    ],
+    "stars": 67390,
+    "forks": 19816,
+    "archived": false,
+    "homepage": "https://echarts.apache.org",
+    "starred_at": "2026-09-24T11:26:43Z"
+  },
+  {
+    "name": "cat",
+    "full_name": "dianping/cat",
+    "url": "https://github.com/dianping/cat",
+    "description": "CAT 作为服务端项目基础组件，提供了 Java, C/C++, Node.js, Python, Go 等多语言客户端，已经在美团点评的基础架构中间件框架（MVC框架，RPC框架，数据库框架，缓存框架等，消息队列，配置系统等）深度集成，为美团点评各业务线提供系统丰富的性能指标、健康状况、实时告警等。",
+    "language": "Java",
+    "topics": [
+      "apm",
+      "distributed",
+      "java",
+      "metrics",
+      "monitoring",
+      "realtime",
+      "tracing"
+    ],
+    "stars": 18943,
+    "forks": 5398,
+    "archived": false,
+    "homepage": "",
+    "starred_at": "2026-09-24T11:23:31Z"
+  },
+  {
+    "name": "apollo",
+    "full_name": "apolloconfig/apollo",
+    "url": "https://github.com/apolloconfig/apollo",
+    "description": "Apollo is a reliable configuration management system suitable for microservice configuration management scenarios.",
+    "language": "Java",
+    "topics": [
+      "config-management",
+      "configuration-management",
+      "distributed-configuration",
+      "microservices",
+      "spring-boot",
+      "spring-cloud"
+    ],
+    "stars": 29816,
+    "forks": 10152,
+    "archived": false,
+    "homepage": "https://www.apolloconfig.com",
+    "starred_at": "2026-09-24T11:20:59Z"
+  },
+  {
+    "name": "lipstick",
+    "full_name": "Ovilia/lipstick",
+    "url": "https://github.com/Ovilia/lipstick",
+    "description": "口红颜色可视化 - 为什么你的女神总缺一支口红",
+    "language": "JavaScript",
+    "topics": [
+      "visualization"
+    ],
+    "stars": 2838,
+    "forks": 339,
+    "archived": false,
+    "homepage": "http://zhangwenli.com/lipstick/",
+    "starred_at": "2026-09-24T11:17:57Z"
+  },
+  {
+    "name": "LeetCodeAnimation",
+    "full_name": "MisterBooo/LeetCodeAnimation",
+    "url": "https://github.com/MisterBooo/LeetCodeAnimation",
+    "description": "Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路,完整单步/回看/变速/语音讲解在 algomooc.com）",
+    "language": "Java",
+    "topics": [
+      "animation",
+      "leetcode",
+      "leetcode-c",
+      "leetcode-java",
+      "leetcode-solutions"
+    ],
+    "stars": 76709,
+    "forks": 13860,
+    "archived": false,
+    "homepage": "https://www.algomooc.com",
+    "starred_at": "2026-09-24T11:16:19Z"
+  },
+  {
+    "name": "sdlpal",
+    "full_name": "sdlpal/sdlpal",
+    "url": "https://github.com/sdlpal/sdlpal",
+    "description": "SDL-based reimplementation of the classic Chinese-language RPG known as PAL.",
+    "language": "C",
+    "topics": [
+      "c",
+      "game",
+      "rpg"
+    ],
+    "stars": 1967,
+    "forks": 390,
+    "archived": false,
+    "homepage": "https://sdlpal.github.io/sdlpal",
+    "starred_at": "2026-09-24T11:15:18Z"
+  },
+  {
+    "name": "JavaGuide-Interview",
+    "full_name": "Snailclimb/JavaGuide-Interview",
+    "url": "https://github.com/Snailclimb/JavaGuide-Interview",
+    "description": "JavaGuide面试突击版，Java 学习&面试突击（Go、Python 后端面试通用,计算机基础面试总结）",
+    "language": "JavaScript",
+    "topics": [],
+    "stars": 2642,
+    "forks": 596,
+    "archived": false,
+    "homepage": "https://interview.javaguide.cn/",
+    "starred_at": "2026-09-24T11:14:16Z"
+  },
+  {
+    "name": "scikit-opt",
+    "full_name": "guofei9987/scikit-opt",
+    "url": "https://github.com/guofei9987/scikit-opt",
+    "description": "Genetic Algorithm, Particle Swarm Optimization, Simulated Annealing, Ant Colony Optimization Algorithm,Immune Algorithm, Artificial Fish Swarm Algorithm, Differential Evolution and TSP(Traveling salesman) ",
+    "language": "Python",
+    "topics": [
+      "ant-colony-algorithm",
+      "artificial-intelligence",
+      "fish-swarms",
+      "genetic-algorithm",
+      "heuristic-algorithms",
+      "immune",
+      "immune-algorithm",
+      "optimization",
+      "particle-swarm-optimization",
+      "pso",
+      "simulated-annealing",
+      "travelling-salesman-problem",
+      "tsp"
+    ],
+    "stars": 6718,
+    "forks": 1107,
+    "archived": false,
+    "homepage": "https://scikit-opt.github.io/scikit-opt/#/en/",
+    "starred_at": "2026-09-24T11:11:41Z"
+  },
+  {
+    "name": "build-your-own-x",
+    "full_name": "codecrafters-io/build-your-own-x",
+    "url": "https://github.com/codecrafters-io/build-your-own-x",
+    "description": "Master programming by recreating your favorite technologies from scratch.",
+    "language": "Markdown",
+    "topics": [
+      "awesome-list",
+      "free",
+      "programming",
+      "tutorial-code",
+      "tutorial-exercises",
+      "tutorials"
+    ],
+    "stars": 549206,
+    "forks": 51607,
+    "archived": false,
+    "homepage": "https://codecrafters.io",
+    "starred_at": "2026-09-24T11:11:04Z"
+  },
+  {
+    "name": "Shadowrocket-ADBlock-Rules-Forever",
+    "full_name": "Johnshall/Shadowrocket-ADBlock-Rules-Forever",
+    "url": "https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever",
+    "description": "提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。",
+    "language": null,
+    "topics": [
+      "adblock",
+      "gfw",
+      "proxy",
+      "shadowrocket",
+      "v2ray"
+    ],
+    "stars": 30501,
+    "forks": 2027,
+    "archived": false,
+    "homepage": "https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/",
+    "starred_at": "2026-09-24T11:07:05Z"
+  },
+  {
+    "name": "cc-switch",
+    "full_name": "farion1231/cc-switch",
+    "url": "https://github.com/farion1231/cc-switch",
+    "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+    "language": "Rust",
+    "topics": [
+      "ai-tools",
+      "claude-code",
+      "codex",
+      "desktop-app",
+      "grok",
+      "grokbuild",
+      "hermes",
+      "hermes-agent",
+      "mcp",
+      "open-source",
+      "openclaw",
+      "openclaw-ui",
+      "opencode",
+      "pi",
+      "provider-management",
+      "rust",
+      "skills",
+      "skills-management",
+      "tauri",
+      "wsl-support"
+    ],
+    "stars": 136269,
+    "forks": 9312,
+    "archived": false,
+    "homepage": "https://ccswitch.io",
+    "starred_at": "2026-09-24T08:32:37Z"
+  },
+  {
     "name": "Sa-Token",
     "full_name": "dromara/Sa-Token",
     "url": "https://github.com/dromara/Sa-Token",
@@ -13,8 +241,8 @@
       "sso",
       "token"
     ],
-    "stars": 19059,
-    "forks": 2914,
+    "stars": 19063,
+    "forks": 2913,
     "archived": false,
     "homepage": "https://sa-token.com",
     "starred_at": "2026-09-23T10:05:41Z"
@@ -44,8 +272,8 @@
       "skill",
       "workflow-automation"
     ],
-    "stars": 75563,
-    "forks": 8770,
+    "stars": 75579,
+    "forks": 8773,
     "archived": false,
     "homepage": "",
     "starred_at": "2026-09-23T10:04:52Z"
@@ -72,7 +300,7 @@
       "rag"
     ],
     "stars": 548,
-    "forks": 84,
+    "forks": 85,
     "archived": false,
     "homepage": "https://haozhe-xing.github.io/agent_learning/",
     "starred_at": "2026-09-23T09:22:59Z"
@@ -95,7 +323,7 @@
       "typesafe",
       "typesafe-ai"
     ],
-    "stars": 69,
+    "stars": 71,
     "forks": 18,
     "archived": false,
     "homepage": "https://code.jiangshu.ai/awesome-jev-zh/",
@@ -128,8 +356,8 @@
       "vercel",
       "webui"
     ],
-    "stars": 88805,
-    "forks": 58990,
+    "stars": 88813,
+    "forks": 58989,
     "archived": false,
     "homepage": "https://nextchat.club",
     "starred_at": "2023-05-23T07:37:36Z"
@@ -141,8 +369,8 @@
     "description": "用 Express 和  Vue3 搭建的 ChatGPT 演示网页",
     "language": "Vue",
     "topics": [],
-    "stars": 31439,
-    "forks": 10662,
+    "stars": 31442,
+    "forks": 10660,
     "archived": true,
     "homepage": "",
     "starred_at": "2023-05-22T07:36:11Z"
@@ -154,8 +382,8 @@
     "description": "You like pytorch? You like micrograd? You love tinygrad! ❤️ ",
     "language": "Python",
     "topics": [],
-    "stars": 33646,
-    "forks": 4349,
+    "stars": 33648,
+    "forks": 4348,
     "archived": false,
     "homepage": "",
     "starred_at": "2022-03-21T03:43:27Z"
@@ -168,7 +396,7 @@
     "language": null,
     "topics": [],
     "stars": 2077,
-    "forks": 424,
+    "forks": 423,
     "archived": false,
     "homepage": "",
     "starred_at": "2021-10-27T17:29:59Z"
@@ -194,8 +422,8 @@
       "springai",
       "system-design"
     ],
-    "stars": 158846,
-    "forks": 46140,
+    "stars": 158850,
+    "forks": 46141,
     "archived": false,
     "homepage": "https://javaguide.cn",
     "starred_at": "2021-08-31T04:00:53Z"
@@ -228,8 +456,8 @@
       "springcloud-config",
       "zookeeper"
     ],
-    "stars": 79129,
-    "forks": 19150,
+    "stars": 79130,
+    "forks": 19149,
     "archived": false,
     "homepage": "https://java.doocs.org",
     "starred_at": "2021-01-27T14:06:11Z"
@@ -241,7 +469,7 @@
     "description": "Deep Learning Book Chinese Translation",
     "language": "TeX",
     "topics": [],
-    "stars": 37553,
+    "stars": 37560,
     "forks": 9117,
     "archived": false,
     "homepage": "https://exacity.github.io/deeplearningbook-chinese",
@@ -275,8 +503,8 @@
       "socket",
       "spring"
     ],
-    "stars": 1503,
-    "forks": 554,
+    "stars": 1504,
+    "forks": 553,
     "archived": false,
     "homepage": "",
     "starred_at": "2017-10-13T06:41:06Z"
@@ -289,22 +517,9 @@
     "language": "JavaScript",
     "topics": [],
     "stars": 740,
-    "forks": 125,
+    "forks": 124,
     "archived": false,
     "homepage": "https://twitter.com/blurspline",
     "starred_at": "2017-09-21T07:04:21Z"
-  },
-  {
-    "name": "easytree",
-    "full_name": "sailcode/easytree",
-    "url": "https://github.com/sailcode/easytree",
-    "description": "tree graph control, use to show the relationship of hierarchy",
-    "language": "JavaScript",
-    "topics": [],
-    "stars": 1,
-    "forks": 0,
-    "archived": false,
-    "homepage": null,
-    "starred_at": "2015-04-10T14:28:43Z"
   }
 ]
