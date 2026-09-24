@@ -16,7 +16,7 @@ A systematic AI Agent development tutorial covering LLM agents, RAG, tool use, m
 
 Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用、Agent 工具、开源复现与独立评测，附中文上手指南，每日自动收录 GitHub 热门项目。
 
-`HTML` · ⭐ 66 · Starred 2026-09-23
+`HTML` · ⭐ 69 · Starred 2026-09-23
 
 `ai-agent` `awesome` `awesome-list` `chinese` `jev` `llm` `structured-output` `system-one`
 
@@ -24,7 +24,7 @@ Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用
 
 Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
 
-`JavaScript` · ⭐ 158,845 · Starred 2021-08-31
+`JavaScript` · ⭐ 158,846 · Starred 2021-08-31
 
 `agent` `ai` `context-engineering` `deepseek` `interview` `java` `mcp` `mysql`
 
@@ -34,7 +34,7 @@ Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分
 
 ✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows.
 
-`TypeScript` · ⭐ 88,806 · Starred 2023-05-23
+`TypeScript` · ⭐ 88,805 · Starred 2023-05-23
 
 `calclaude` `chatgpt` `claude` `cross-platform` `desktop` `fe` `gemini` `gemini-pro`
 
@@ -76,7 +76,7 @@ Jupiter是一款性能非常不错的, 轻量级的分布式服务框架
 
 A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
 
-`Python` · ⭐ 75,553 · Starred 2026-09-23
+`Python` · ⭐ 75,563 · Starred 2026-09-23
 
 `agent-skills` `ai-agents` `antigravity` `automation` `claude` `claude-code` `codex` `composio`
 
@@ -86,7 +86,7 @@ A curated list of awesome Claude Skills, resources, and tools for customizing Cl
 
 ✨ 开源、免费、一站式 Java 权限认证框架，让鉴权变得简单、优雅！—— 登录认证、权限认证、分布式 Session 会话、微服务网关鉴权、SSO 单点登录、OAuth2.0 统一认证、jwt 集成、API Key 秘钥授权、API 参数签名
 
-`Java` · ⭐ 19,058 · Starred 2026-09-23
+`Java` · ⭐ 19,059 · Starred 2026-09-23
 
 `aouth2` `authorization` `java` `springcloud` `sso` `token`
 
@@ -94,19 +94,19 @@ A curated list of awesome Claude Skills, resources, and tools for customizing Cl
 
 用 Express 和  Vue3 搭建的 ChatGPT 演示网页
 
-`Vue` · ⭐ 31,440 · Starred 2023-05-22
+`Vue` · ⭐ 31,439 · Starred 2023-05-22
 
 ### [tinygrad/tinygrad](https://github.com/tinygrad/tinygrad)
 
 You like pytorch? You like micrograd? You love tinygrad! ❤️ 
 
-`Python` · ⭐ 33,643 · Starred 2022-03-21
+`Python` · ⭐ 33,646 · Starred 2022-03-21
 
 ### [lllhhh/BooksKeeper](https://github.com/lllhhh/BooksKeeper)
 
 对各类图书资源的收集。大量计算机、AI方面书籍。
 
-`Unknown` · ⭐ 2,076 · Starred 2021-10-27
+`Unknown` · ⭐ 2,077 · Starred 2021-10-27
 
 ### [exacity/deeplearningbook-chinese](https://github.com/exacity/deeplearningbook-chinese)
 

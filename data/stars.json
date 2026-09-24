@@ -13,7 +13,7 @@
       "sso",
       "token"
     ],
-    "stars": 19058,
+    "stars": 19059,
     "forks": 2914,
     "archived": false,
     "homepage": "https://sa-token.com",
@@ -44,8 +44,8 @@
       "skill",
       "workflow-automation"
     ],
-    "stars": 75553,
-    "forks": 8767,
+    "stars": 75563,
+    "forks": 8770,
     "archived": false,
     "homepage": "",
     "starred_at": "2026-09-23T10:04:52Z"
@@ -95,8 +95,8 @@
       "typesafe",
       "typesafe-ai"
     ],
-    "stars": 66,
-    "forks": 17,
+    "stars": 69,
+    "forks": 18,
     "archived": false,
     "homepage": "https://code.jiangshu.ai/awesome-jev-zh/",
     "starred_at": "2026-09-23T09:22:19Z"
@@ -128,8 +128,8 @@
       "vercel",
       "webui"
     ],
-    "stars": 88806,
-    "forks": 58993,
+    "stars": 88805,
+    "forks": 58990,
     "archived": false,
     "homepage": "https://nextchat.club",
     "starred_at": "2023-05-23T07:37:36Z"
@@ -141,7 +141,7 @@
     "description": "用 Express 和  Vue3 搭建的 ChatGPT 演示网页",
     "language": "Vue",
     "topics": [],
-    "stars": 31440,
+    "stars": 31439,
     "forks": 10662,
     "archived": true,
     "homepage": "",
@@ -154,7 +154,7 @@
     "description": "You like pytorch? You like micrograd? You love tinygrad! ❤️ ",
     "language": "Python",
     "topics": [],
-    "stars": 33643,
+    "stars": 33646,
     "forks": 4349,
     "archived": false,
     "homepage": "",
@@ -167,7 +167,7 @@
     "description": "对各类图书资源的收集。大量计算机、AI方面书籍。",
     "language": null,
     "topics": [],
-    "stars": 2076,
+    "stars": 2077,
     "forks": 424,
     "archived": false,
     "homepage": "",
@@ -194,7 +194,7 @@
       "springai",
       "system-design"
     ],
-    "stars": 158845,
+    "stars": 158846,
     "forks": 46140,
     "archived": false,
     "homepage": "https://javaguide.cn",
