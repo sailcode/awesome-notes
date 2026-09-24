@@ -16,8 +16,8 @@
       "svg",
       "visualization"
     ],
-    "stars": 67390,
-    "forks": 19816,
+    "stars": 67393,
+    "forks": 19815,
     "archived": false,
     "homepage": "https://echarts.apache.org",
     "starred_at": "2026-09-24T11:26:43Z"
@@ -168,8 +168,8 @@
       "tutorial-exercises",
       "tutorials"
     ],
-    "stars": 549284,
-    "forks": 51614,
+    "stars": 549335,
+    "forks": 51613,
     "archived": false,
     "homepage": "https://codecrafters.io",
     "starred_at": "2026-09-24T11:11:04Z"
@@ -187,8 +187,8 @@
       "shadowrocket",
       "v2ray"
     ],
-    "stars": 30514,
-    "forks": 2028,
+    "stars": 30518,
+    "forks": 2029,
     "archived": false,
     "homepage": "https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/",
     "starred_at": "2026-09-24T11:07:05Z"
@@ -221,7 +221,7 @@
       "tauri",
       "wsl-support"
     ],
-    "stars": 136415,
+    "stars": 136447,
     "forks": 9315,
     "archived": false,
     "homepage": "https://ccswitch.io",
@@ -272,8 +272,8 @@
       "skill",
       "workflow-automation"
     ],
-    "stars": 75590,
-    "forks": 8774,
+    "stars": 75598,
+    "forks": 8775,
     "archived": false,
     "homepage": "",
     "starred_at": "2026-09-23T10:04:52Z"
@@ -356,7 +356,7 @@
       "vercel",
       "webui"
     ],
-    "stars": 88809,
+    "stars": 88812,
     "forks": 58989,
     "archived": false,
     "homepage": "https://nextchat.club",
@@ -369,7 +369,7 @@
     "description": "用 Express 和  Vue3 搭建的 ChatGPT 演示网页",
     "language": "Vue",
     "topics": [],
-    "stars": 31442,
+    "stars": 31441,
     "forks": 10660,
     "archived": true,
     "homepage": "",
@@ -382,7 +382,7 @@
     "description": "You like pytorch? You like micrograd? You love tinygrad! ❤️ ",
     "language": "Python",
     "topics": [],
-    "stars": 33651,
+    "stars": 33652,
     "forks": 4349,
     "archived": false,
     "homepage": "",
@@ -422,7 +422,7 @@
       "springai",
       "system-design"
     ],
-    "stars": 158852,
+    "stars": 158858,
     "forks": 46141,
     "archived": false,
     "homepage": "https://javaguide.cn",
@@ -469,8 +469,8 @@
     "description": "Deep Learning Book Chinese Translation",
     "language": "TeX",
     "topics": [],
-    "stars": 37598,
-    "forks": 9123,
+    "stars": 37604,
+    "forks": 9125,
     "archived": false,
     "homepage": "https://exacity.github.io/deeplearningbook-chinese",
     "starred_at": "2017-11-19T10:37:56Z"
