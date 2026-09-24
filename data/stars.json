@@ -91,7 +91,7 @@
       "leetcode-java",
       "leetcode-solutions"
     ],
-    "stars": 76709,
+    "stars": 76710,
     "forks": 13860,
     "archived": false,
     "homepage": "https://www.algomooc.com",
@@ -168,8 +168,8 @@
       "tutorial-exercises",
       "tutorials"
     ],
-    "stars": 549206,
-    "forks": 51607,
+    "stars": 549284,
+    "forks": 51614,
     "archived": false,
     "homepage": "https://codecrafters.io",
     "starred_at": "2026-09-24T11:11:04Z"
@@ -187,8 +187,8 @@
       "shadowrocket",
       "v2ray"
     ],
-    "stars": 30501,
-    "forks": 2027,
+    "stars": 30514,
+    "forks": 2028,
     "archived": false,
     "homepage": "https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/",
     "starred_at": "2026-09-24T11:07:05Z"
@@ -221,8 +221,8 @@
       "tauri",
       "wsl-support"
     ],
-    "stars": 136269,
-    "forks": 9312,
+    "stars": 136415,
+    "forks": 9315,
     "archived": false,
     "homepage": "https://ccswitch.io",
     "starred_at": "2026-09-24T08:32:37Z"
@@ -241,8 +241,8 @@
       "sso",
       "token"
     ],
-    "stars": 19063,
-    "forks": 2913,
+    "stars": 19065,
+    "forks": 2914,
     "archived": false,
     "homepage": "https://sa-token.com",
     "starred_at": "2026-09-23T10:05:41Z"
@@ -272,8 +272,8 @@
       "skill",
       "workflow-automation"
     ],
-    "stars": 75579,
-    "forks": 8773,
+    "stars": 75590,
+    "forks": 8774,
     "archived": false,
     "homepage": "",
     "starred_at": "2026-09-23T10:04:52Z"
@@ -299,7 +299,7 @@
       "multi-agents",
       "rag"
     ],
-    "stars": 548,
+    "stars": 547,
     "forks": 85,
     "archived": false,
     "homepage": "https://haozhe-xing.github.io/agent_learning/",
@@ -356,7 +356,7 @@
       "vercel",
       "webui"
     ],
-    "stars": 88813,
+    "stars": 88809,
     "forks": 58989,
     "archived": false,
     "homepage": "https://nextchat.club",
@@ -382,8 +382,8 @@
     "description": "You like pytorch? You like micrograd? You love tinygrad! ❤️ ",
     "language": "Python",
     "topics": [],
-    "stars": 33648,
-    "forks": 4348,
+    "stars": 33651,
+    "forks": 4349,
     "archived": false,
     "homepage": "",
     "starred_at": "2022-03-21T03:43:27Z"
@@ -422,7 +422,7 @@
       "springai",
       "system-design"
     ],
-    "stars": 158850,
+    "stars": 158852,
     "forks": 46141,
     "archived": false,
     "homepage": "https://javaguide.cn",
@@ -469,8 +469,8 @@
     "description": "Deep Learning Book Chinese Translation",
     "language": "TeX",
     "topics": [],
-    "stars": 37560,
-    "forks": 9117,
+    "stars": 37598,
+    "forks": 9123,
     "archived": false,
     "homepage": "https://exacity.github.io/deeplearningbook-chinese",
     "starred_at": "2017-11-19T10:37:56Z"

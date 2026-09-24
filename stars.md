@@ -16,7 +16,7 @@ Genetic Algorithm, Particle Swarm Optimization, Simulated Annealing, Ant Colony 
 
 A systematic AI Agent development tutorial covering LLM agents, RAG, tool use, memory systems, multi-agent systems, LangChain, LangGraph, MCP, and agentic RL.｜从零开始学 AI Agent 开发 | 系统、全面、实战导向的 Agent 开发教程 | 每日自动追踪 arXiv 最新论文 | Learn AI Agent Development from Scratch
 
-`HTML` · ⭐ 548 · Starred 2026-09-23
+`HTML` · ⭐ 547 · Starred 2026-09-23
 
 `agent-learning` `agentic-workflow` `ai-agent` `ai-agent-tutorial` `dspy` `grpo` `langchain` `large-language-models`
 
@@ -32,7 +32,7 @@ Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用
 
 Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
 
-`JavaScript` · ⭐ 158,850 · Starred 2021-08-31
+`JavaScript` · ⭐ 158,852 · Starred 2021-08-31
 
 `agent` `ai` `context-engineering` `deepseek` `interview` `java` `mcp` `mysql`
 
@@ -64,7 +64,7 @@ JavaGuide面试突击版，Java 学习&面试突击（Go、Python 后端面试�
 
 ✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows.
 
-`TypeScript` · ⭐ 88,813 · Starred 2023-05-23
+`TypeScript` · ⭐ 88,809 · Starred 2023-05-23
 
 `calclaude` `chatgpt` `claude` `cross-platform` `desktop` `fe` `gemini` `gemini-pro`
 
@@ -100,7 +100,7 @@ Jupiter是一款性能非常不错的, 轻量级的分布式服务框架
 
 A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
 
-`Python` · ⭐ 75,579 · Starred 2026-09-23
+`Python` · ⭐ 75,590 · Starred 2026-09-23
 
 `agent-skills` `ai-agents` `antigravity` `automation` `claude` `claude-code` `codex` `composio`
 
@@ -126,7 +126,7 @@ Apollo is a reliable configuration management system suitable for microservice c
 
 Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路,完整单步/回看/变速/语音讲解在 algomooc.com）
 
-`Java` · ⭐ 76,709 · Starred 2026-09-24
+`Java` · ⭐ 76,710 · Starred 2026-09-24
 
 `animation` `leetcode` `leetcode-c` `leetcode-java` `leetcode-solutions`
 
@@ -142,7 +142,7 @@ SDL-based reimplementation of the classic Chinese-language RPG known as PAL.
 
 Master programming by recreating your favorite technologies from scratch.
 
-`Markdown` · ⭐ 549,206 · Starred 2026-09-24
+`Markdown` · ⭐ 549,284 · Starred 2026-09-24
 
 `awesome-list` `free` `programming` `tutorial-code` `tutorial-exercises` `tutorials`
 
@@ -150,7 +150,7 @@ Master programming by recreating your favorite technologies from scratch.
 
 提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。
 
-`Unknown` · ⭐ 30,501 · Starred 2026-09-24
+`Unknown` · ⭐ 30,514 · Starred 2026-09-24
 
 `adblock` `gfw` `proxy` `shadowrocket` `v2ray`
 
@@ -158,7 +158,7 @@ Master programming by recreating your favorite technologies from scratch.
 
 A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io
 
-`Rust` · ⭐ 136,269 · Starred 2026-09-24
+`Rust` · ⭐ 136,415 · Starred 2026-09-24
 
 `ai-tools` `claude-code` `codex` `desktop-app` `grok` `grokbuild` `hermes` `hermes-agent`
 
@@ -166,7 +166,7 @@ A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, 
 
 ✨ 开源、免费、一站式 Java 权限认证框架，让鉴权变得简单、优雅！—— 登录认证、权限认证、分布式 Session 会话、微服务网关鉴权、SSO 单点登录、OAuth2.0 统一认证、jwt 集成、API Key 秘钥授权、API 参数签名
 
-`Java` · ⭐ 19,063 · Starred 2026-09-23
+`Java` · ⭐ 19,065 · Starred 2026-09-23
 
 `aouth2` `authorization` `java` `springcloud` `sso` `token`
 
@@ -180,7 +180,7 @@ A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, 
 
 You like pytorch? You like micrograd? You love tinygrad! ❤️ 
 
-`Python` · ⭐ 33,648 · Starred 2022-03-21
+`Python` · ⭐ 33,651 · Starred 2022-03-21
 
 ### [lllhhh/BooksKeeper](https://github.com/lllhhh/BooksKeeper)
 
@@ -192,4 +192,4 @@ You like pytorch? You like micrograd? You love tinygrad! ❤️
 
 Deep Learning Book Chinese Translation
 
-`TeX` · ⭐ 37,560 · Starred 2017-11-19
+`TeX` · ⭐ 37,598 · Starred 2017-11-19
