@@ -24,7 +24,7 @@ A systematic AI Agent development tutorial covering LLM agents, RAG, tool use, m
 
 Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用、Agent 工具、开源复现与独立评测，附中文上手指南，每日自动收录 GitHub 热门项目。
 
-`HTML` · ⭐ 73 · Starred 2026-09-23
+`HTML` · ⭐ 74 · Starred 2026-09-23
 
 `ai-agent` `awesome` `awesome-list` `chinese` `jev` `llm` `structured-output` `system-one`
 
@@ -32,7 +32,7 @@ Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用
 
 Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
 
-`JavaScript` · ⭐ 158,868 · Starred 2021-08-31
+`JavaScript` · ⭐ 158,864 · Starred 2021-08-31
 
 `agent` `ai` `context-engineering` `deepseek` `interview` `java` `mcp` `mysql`
 
@@ -42,7 +42,7 @@ Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分
 
 Apache ECharts is a powerful, interactive charting and data visualization library for browser
 
-`TypeScript` · ⭐ 67,392 · Starred 2026-09-24
+`TypeScript` · ⭐ 67,393 · Starred 2026-09-24
 
 `apache` `canvas` `charting-library` `charts` `data-visualization` `data-viz` `echarts` `svg`
 
@@ -80,7 +80,7 @@ simple javascript timeline library for animation and prototyping
 
 Jupiter是一款性能非常不错的, 轻量级的分布式服务框架
 
-`Java` · ⭐ 1,504 · Starred 2017-10-13
+`Java` · ⭐ 1,505 · Starred 2017-10-13
 
 `cluster` `distributed-systems` `hessian` `high-performance` `java` `jupiter` `kryo` `microservice`
 
@@ -90,7 +90,7 @@ Jupiter是一款性能非常不错的, 轻量级的分布式服务框架
 
 😮 Core Interview Questions & Answers For Experienced Java(Backend) Developers | 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识
 
-`Java` · ⭐ 79,130 · Starred 2021-01-27
+`Java` · ⭐ 79,126 · Starred 2021-01-27
 
 `advanced-java` `distributed-search-engine` `distributed-systems` `doocs` `dubbo` `elasticsearch` `eureka` `feign`
 
@@ -100,7 +100,7 @@ Jupiter是一款性能非常不错的, 轻量级的分布式服务框架
 
 A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
 
-`Python` · ⭐ 75,609 · Starred 2026-09-23
+`Python` · ⭐ 75,618 · Starred 2026-09-23
 
 `agent-skills` `ai-agents` `antigravity` `automation` `claude` `claude-code` `codex` `composio`
 
@@ -110,7 +110,7 @@ A curated list of awesome Claude Skills, resources, and tools for customizing Cl
 
 CAT 作为服务端项目基础组件，提供了 Java, C/C++, Node.js, Python, Go 等多语言客户端，已经在美团点评的基础架构中间件框架（MVC框架，RPC框架，数据库框架，缓存框架等，消息队列，配置系统等）深度集成，为美团点评各业务线提供系统丰富的性能指标、健康状况、实时告警等。
 
-`Java` · ⭐ 18,943 · Starred 2026-09-24
+`Java` · ⭐ 18,942 · Starred 2026-09-24
 
 `apm` `distributed` `java` `metrics` `monitoring` `realtime` `tracing`
 
@@ -118,7 +118,7 @@ CAT 作为服务端项目基础组件，提供了 Java, C/C++, Node.js, Python, 
 
 Apollo is a reliable configuration management system suitable for microservice configuration management scenarios.
 
-`Java` · ⭐ 29,816 · Starred 2026-09-24
+`Java` · ⭐ 29,817 · Starred 2026-09-24
 
 `config-management` `configuration-management` `distributed-configuration` `microservices` `spring-boot` `spring-cloud`
 
@@ -142,7 +142,7 @@ SDL-based reimplementation of the classic Chinese-language RPG known as PAL.
 
 Master programming by recreating your favorite technologies from scratch.
 
-`Markdown` · ⭐ 549,402 · Starred 2026-09-24
+`Markdown` · ⭐ 549,450 · Starred 2026-09-24
 
 `awesome-list` `free` `programming` `tutorial-code` `tutorial-exercises` `tutorials`
 
@@ -150,7 +150,7 @@ Master programming by recreating your favorite technologies from scratch.
 
 提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。
 
-`Unknown` · ⭐ 30,533 · Starred 2026-09-24
+`Unknown` · ⭐ 30,542 · Starred 2026-09-24
 
 `adblock` `gfw` `proxy` `shadowrocket` `v2ray`
 
@@ -158,7 +158,7 @@ Master programming by recreating your favorite technologies from scratch.
 
 A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io
 
-`Rust` · ⭐ 136,632 · Starred 2026-09-24
+`Rust` · ⭐ 136,750 · Starred 2026-09-24
 
 `ai-tools` `claude-code` `codex` `desktop-app` `grok` `grokbuild` `hermes` `hermes-agent`
 
@@ -180,7 +180,7 @@ A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, 
 
 You like pytorch? You like micrograd? You love tinygrad! ❤️ 
 
-`Python` · ⭐ 33,655 · Starred 2022-03-21
+`Python` · ⭐ 33,657 · Starred 2022-03-21
 
 ### [lllhhh/BooksKeeper](https://github.com/lllhhh/BooksKeeper)
 
@@ -192,4 +192,4 @@ You like pytorch? You like micrograd? You love tinygrad! ❤️
 
 Deep Learning Book Chinese Translation
 
-`TeX` · ⭐ 37,642 · Starred 2017-11-19
+`TeX` · ⭐ 37,648 · Starred 2017-11-19
