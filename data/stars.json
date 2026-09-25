@@ -16,8 +16,8 @@
       "svg",
       "visualization"
     ],
-    "stars": 67393,
-    "forks": 19815,
+    "stars": 67394,
+    "forks": 19814,
     "archived": false,
     "homepage": "https://echarts.apache.org",
     "starred_at": "2026-09-24T11:26:43Z"
@@ -57,7 +57,7 @@
       "spring-boot",
       "spring-cloud"
     ],
-    "stars": 29817,
+    "stars": 29816,
     "forks": 10153,
     "archived": false,
     "homepage": "https://www.apolloconfig.com",
@@ -92,7 +92,7 @@
       "leetcode-solutions"
     ],
     "stars": 76710,
-    "forks": 13861,
+    "forks": 13860,
     "archived": false,
     "homepage": "https://www.algomooc.com",
     "starred_at": "2026-09-24T11:16:19Z"
@@ -168,8 +168,8 @@
       "tutorial-exercises",
       "tutorials"
     ],
-    "stars": 549450,
-    "forks": 51627,
+    "stars": 549513,
+    "forks": 51632,
     "archived": false,
     "homepage": "https://codecrafters.io",
     "starred_at": "2026-09-24T11:11:04Z"
@@ -187,8 +187,8 @@
       "shadowrocket",
       "v2ray"
     ],
-    "stars": 30542,
-    "forks": 2029,
+    "stars": 30554,
+    "forks": 2030,
     "archived": false,
     "homepage": "https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/",
     "starred_at": "2026-09-24T11:07:05Z"
@@ -221,8 +221,8 @@
       "tauri",
       "wsl-support"
     ],
-    "stars": 136750,
-    "forks": 9317,
+    "stars": 136821,
+    "forks": 9322,
     "archived": false,
     "homepage": "https://ccswitch.io",
     "starred_at": "2026-09-24T08:32:37Z"
@@ -241,7 +241,7 @@
       "sso",
       "token"
     ],
-    "stars": 19066,
+    "stars": 19065,
     "forks": 2914,
     "archived": false,
     "homepage": "https://sa-token.com",
@@ -272,8 +272,8 @@
       "skill",
       "workflow-automation"
     ],
-    "stars": 75618,
-    "forks": 8782,
+    "stars": 75638,
+    "forks": 8784,
     "archived": false,
     "homepage": "",
     "starred_at": "2026-09-23T10:04:52Z"
@@ -299,7 +299,7 @@
       "multi-agents",
       "rag"
     ],
-    "stars": 548,
+    "stars": 547,
     "forks": 85,
     "archived": false,
     "homepage": "https://haozhe-xing.github.io/agent_learning/",
@@ -323,7 +323,7 @@
       "typesafe",
       "typesafe-ai"
     ],
-    "stars": 74,
+    "stars": 76,
     "forks": 18,
     "archived": false,
     "homepage": "https://code.jiangshu.ai/awesome-jev-zh/",
@@ -356,8 +356,8 @@
       "vercel",
       "webui"
     ],
-    "stars": 88811,
-    "forks": 58983,
+    "stars": 88812,
+    "forks": 58985,
     "archived": false,
     "homepage": "https://nextchat.club",
     "starred_at": "2023-05-23T07:37:36Z"
@@ -369,7 +369,7 @@
     "description": "用 Express 和  Vue3 搭建的 ChatGPT 演示网页",
     "language": "Vue",
     "topics": [],
-    "stars": 31441,
+    "stars": 31440,
     "forks": 10660,
     "archived": true,
     "homepage": "",
@@ -382,8 +382,8 @@
     "description": "You like pytorch? You like micrograd? You love tinygrad! ❤️ ",
     "language": "Python",
     "topics": [],
-    "stars": 33657,
-    "forks": 4348,
+    "stars": 33658,
+    "forks": 4347,
     "archived": false,
     "homepage": "",
     "starred_at": "2022-03-21T03:43:27Z"
@@ -423,7 +423,7 @@
       "system-design"
     ],
     "stars": 158864,
-    "forks": 46142,
+    "forks": 46143,
     "archived": false,
     "homepage": "https://javaguide.cn",
     "starred_at": "2021-08-31T04:00:53Z"
@@ -457,7 +457,7 @@
       "zookeeper"
     ],
     "stars": 79126,
-    "forks": 19150,
+    "forks": 19149,
     "archived": false,
     "homepage": "https://java.doocs.org",
     "starred_at": "2021-01-27T14:06:11Z"
@@ -469,7 +469,7 @@
     "description": "Deep Learning Book Chinese Translation",
     "language": "TeX",
     "topics": [],
-    "stars": 37648,
+    "stars": 37649,
     "forks": 9127,
     "archived": false,
     "homepage": "https://exacity.github.io/deeplearningbook-chinese",
