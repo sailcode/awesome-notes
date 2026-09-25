@@ -17,7 +17,7 @@
       "visualization"
     ],
     "stars": 67393,
-    "forks": 19815,
+    "forks": 19816,
     "archived": false,
     "homepage": "https://echarts.apache.org",
     "starred_at": "2026-09-24T11:26:43Z"
@@ -168,8 +168,8 @@
       "tutorial-exercises",
       "tutorials"
     ],
-    "stars": 549335,
-    "forks": 51613,
+    "stars": 549351,
+    "forks": 51619,
     "archived": false,
     "homepage": "https://codecrafters.io",
     "starred_at": "2026-09-24T11:11:04Z"
@@ -187,7 +187,7 @@
       "shadowrocket",
       "v2ray"
     ],
-    "stars": 30518,
+    "stars": 30522,
     "forks": 2029,
     "archived": false,
     "homepage": "https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/",
@@ -221,8 +221,8 @@
       "tauri",
       "wsl-support"
     ],
-    "stars": 136447,
-    "forks": 9315,
+    "stars": 136464,
+    "forks": 9316,
     "archived": false,
     "homepage": "https://ccswitch.io",
     "starred_at": "2026-09-24T08:32:37Z"
@@ -272,7 +272,7 @@
       "skill",
       "workflow-automation"
     ],
-    "stars": 75598,
+    "stars": 75601,
     "forks": 8775,
     "archived": false,
     "homepage": "",
@@ -357,7 +357,7 @@
       "webui"
     ],
     "stars": 88812,
-    "forks": 58989,
+    "forks": 58987,
     "archived": false,
     "homepage": "https://nextchat.club",
     "starred_at": "2023-05-23T07:37:36Z"
@@ -382,7 +382,7 @@
     "description": "You like pytorch? You like micrograd? You love tinygrad! ❤️ ",
     "language": "Python",
     "topics": [],
-    "stars": 33652,
+    "stars": 33654,
     "forks": 4349,
     "archived": false,
     "homepage": "",
@@ -395,7 +395,7 @@
     "description": "对各类图书资源的收集。大量计算机、AI方面书籍。",
     "language": null,
     "topics": [],
-    "stars": 2077,
+    "stars": 2078,
     "forks": 423,
     "archived": false,
     "homepage": "",
@@ -422,7 +422,7 @@
       "springai",
       "system-design"
     ],
-    "stars": 158858,
+    "stars": 158863,
     "forks": 46141,
     "archived": false,
     "homepage": "https://javaguide.cn",
@@ -469,8 +469,8 @@
     "description": "Deep Learning Book Chinese Translation",
     "language": "TeX",
     "topics": [],
-    "stars": 37604,
-    "forks": 9125,
+    "stars": 37610,
+    "forks": 9126,
     "archived": false,
     "homepage": "https://exacity.github.io/deeplearningbook-chinese",
     "starred_at": "2017-11-19T10:37:56Z"
