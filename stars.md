@@ -32,7 +32,7 @@ Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用
 
 Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
 
-`JavaScript` · ⭐ 158,864 · Starred 2021-08-31
+`JavaScript` · ⭐ 158,871 · Starred 2021-08-31
 
 `agent` `ai` `context-engineering` `deepseek` `interview` `java` `mcp` `mysql`
 
@@ -42,7 +42,7 @@ Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分
 
 Apache ECharts is a powerful, interactive charting and data visualization library for browser
 
-`TypeScript` · ⭐ 67,394 · Starred 2026-09-24
+`TypeScript` · ⭐ 67,396 · Starred 2026-09-24
 
 `apache` `canvas` `charting-library` `charts` `data-visualization` `data-viz` `echarts` `svg`
 
@@ -64,7 +64,7 @@ JavaGuide面试突击版，Java 学习&面试突击（Go、Python 后端面试�
 
 ✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows.
 
-`TypeScript` · ⭐ 88,812 · Starred 2023-05-23
+`TypeScript` · ⭐ 88,813 · Starred 2023-05-23
 
 `calclaude` `chatgpt` `claude` `cross-platform` `desktop` `fe` `gemini` `gemini-pro`
 
@@ -100,7 +100,7 @@ Jupiter是一款性能非常不错的, 轻量级的分布式服务框架
 
 A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
 
-`Python` · ⭐ 75,638 · Starred 2026-09-23
+`Python` · ⭐ 75,645 · Starred 2026-09-23
 
 `agent-skills` `ai-agents` `antigravity` `automation` `claude` `claude-code` `codex` `composio`
 
@@ -142,7 +142,7 @@ SDL-based reimplementation of the classic Chinese-language RPG known as PAL.
 
 Master programming by recreating your favorite technologies from scratch.
 
-`Markdown` · ⭐ 549,513 · Starred 2026-09-24
+`Markdown` · ⭐ 549,574 · Starred 2026-09-24
 
 `awesome-list` `free` `programming` `tutorial-code` `tutorial-exercises` `tutorials`
 
@@ -150,7 +150,7 @@ Master programming by recreating your favorite technologies from scratch.
 
 提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。
 
-`Unknown` · ⭐ 30,554 · Starred 2026-09-24
+`Unknown` · ⭐ 30,555 · Starred 2026-09-24
 
 `adblock` `gfw` `proxy` `shadowrocket` `v2ray`
 
@@ -158,7 +158,7 @@ Master programming by recreating your favorite technologies from scratch.
 
 A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io
 
-`Rust` · ⭐ 136,821 · Starred 2026-09-24
+`Rust` · ⭐ 136,836 · Starred 2026-09-24
 
 `ai-tools` `claude-code` `codex` `desktop-app` `grok` `grokbuild` `hermes` `hermes-agent`
 

@@ -16,7 +16,7 @@
       "svg",
       "visualization"
     ],
-    "stars": 67394,
+    "stars": 67396,
     "forks": 19814,
     "archived": false,
     "homepage": "https://echarts.apache.org",
@@ -168,8 +168,8 @@
       "tutorial-exercises",
       "tutorials"
     ],
-    "stars": 549513,
-    "forks": 51632,
+    "stars": 549574,
+    "forks": 51636,
     "archived": false,
     "homepage": "https://codecrafters.io",
     "starred_at": "2026-09-24T11:11:04Z"
@@ -187,7 +187,7 @@
       "shadowrocket",
       "v2ray"
     ],
-    "stars": 30554,
+    "stars": 30555,
     "forks": 2030,
     "archived": false,
     "homepage": "https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/",
@@ -221,8 +221,8 @@
       "tauri",
       "wsl-support"
     ],
-    "stars": 136821,
-    "forks": 9322,
+    "stars": 136836,
+    "forks": 9323,
     "archived": false,
     "homepage": "https://ccswitch.io",
     "starred_at": "2026-09-24T08:32:37Z"
@@ -272,8 +272,8 @@
       "skill",
       "workflow-automation"
     ],
-    "stars": 75638,
-    "forks": 8784,
+    "stars": 75645,
+    "forks": 8786,
     "archived": false,
     "homepage": "",
     "starred_at": "2026-09-23T10:04:52Z"
@@ -356,7 +356,7 @@
       "vercel",
       "webui"
     ],
-    "stars": 88812,
+    "stars": 88813,
     "forks": 58985,
     "archived": false,
     "homepage": "https://nextchat.club",
@@ -370,7 +370,7 @@
     "language": "Vue",
     "topics": [],
     "stars": 31440,
-    "forks": 10660,
+    "forks": 10659,
     "archived": true,
     "homepage": "",
     "starred_at": "2023-05-22T07:36:11Z"
@@ -383,7 +383,7 @@
     "language": "Python",
     "topics": [],
     "stars": 33658,
-    "forks": 4347,
+    "forks": 4348,
     "archived": false,
     "homepage": "",
     "starred_at": "2022-03-21T03:43:27Z"
@@ -422,7 +422,7 @@
       "springai",
       "system-design"
     ],
-    "stars": 158864,
+    "stars": 158871,
     "forks": 46143,
     "archived": false,
     "homepage": "https://javaguide.cn",
