@@ -16,8 +16,8 @@
       "svg",
       "visualization"
     ],
-    "stars": 67396,
-    "forks": 19814,
+    "stars": 67398,
+    "forks": 19813,
     "archived": false,
     "homepage": "https://echarts.apache.org",
     "starred_at": "2026-09-24T11:26:43Z"
@@ -37,7 +37,7 @@
       "realtime",
       "tracing"
     ],
-    "stars": 18941,
+    "stars": 18940,
     "forks": 5398,
     "archived": false,
     "homepage": "",
@@ -57,7 +57,7 @@
       "spring-boot",
       "spring-cloud"
     ],
-    "stars": 29815,
+    "stars": 29814,
     "forks": 10153,
     "archived": false,
     "homepage": "https://www.apolloconfig.com",
@@ -168,8 +168,8 @@
       "tutorial-exercises",
       "tutorials"
     ],
-    "stars": 549732,
-    "forks": 51641,
+    "stars": 549818,
+    "forks": 51648,
     "archived": false,
     "homepage": "https://codecrafters.io",
     "starred_at": "2026-09-24T11:11:04Z"
@@ -187,8 +187,8 @@
       "shadowrocket",
       "v2ray"
     ],
-    "stars": 30569,
-    "forks": 2031,
+    "stars": 30582,
+    "forks": 2033,
     "archived": false,
     "homepage": "https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/",
     "starred_at": "2026-09-24T11:07:05Z"
@@ -221,8 +221,8 @@
       "tauri",
       "wsl-support"
     ],
-    "stars": 137044,
-    "forks": 9333,
+    "stars": 137127,
+    "forks": 9338,
     "archived": false,
     "homepage": "https://ccswitch.io",
     "starred_at": "2026-09-24T08:32:37Z"
@@ -272,8 +272,8 @@
       "skill",
       "workflow-automation"
     ],
-    "stars": 75658,
-    "forks": 8791,
+    "stars": 75665,
+    "forks": 8792,
     "archived": false,
     "homepage": "",
     "starred_at": "2026-09-23T10:04:52Z"
@@ -356,8 +356,8 @@
       "vercel",
       "webui"
     ],
-    "stars": 88814,
-    "forks": 58976,
+    "stars": 88813,
+    "forks": 58975,
     "archived": false,
     "homepage": "https://nextchat.club",
     "starred_at": "2023-05-23T07:37:36Z"
@@ -369,7 +369,7 @@
     "description": "用 Express 和  Vue3 搭建的 ChatGPT 演示网页",
     "language": "Vue",
     "topics": [],
-    "stars": 31439,
+    "stars": 31438,
     "forks": 10659,
     "archived": true,
     "homepage": "",
@@ -382,7 +382,7 @@
     "description": "You like pytorch? You like micrograd? You love tinygrad! ❤️ ",
     "language": "Python",
     "topics": [],
-    "stars": 33661,
+    "stars": 33662,
     "forks": 4348,
     "archived": false,
     "homepage": "",
@@ -422,8 +422,8 @@
       "springai",
       "system-design"
     ],
-    "stars": 158880,
-    "forks": 46143,
+    "stars": 158884,
+    "forks": 46144,
     "archived": false,
     "homepage": "https://javaguide.cn",
     "starred_at": "2021-08-31T04:00:53Z"
@@ -456,7 +456,7 @@
       "springcloud-config",
       "zookeeper"
     ],
-    "stars": 79127,
+    "stars": 79128,
     "forks": 19149,
     "archived": false,
     "homepage": "https://java.doocs.org",
