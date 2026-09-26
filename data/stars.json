@@ -16,7 +16,7 @@
       "svg",
       "visualization"
     ],
-    "stars": 67398,
+    "stars": 67399,
     "forks": 19813,
     "archived": false,
     "homepage": "https://echarts.apache.org",
@@ -168,8 +168,8 @@
       "tutorial-exercises",
       "tutorials"
     ],
-    "stars": 549818,
-    "forks": 51648,
+    "stars": 549897,
+    "forks": 51654,
     "archived": false,
     "homepage": "https://codecrafters.io",
     "starred_at": "2026-09-24T11:11:04Z"
@@ -187,8 +187,8 @@
       "shadowrocket",
       "v2ray"
     ],
-    "stars": 30582,
-    "forks": 2033,
+    "stars": 30586,
+    "forks": 2035,
     "archived": false,
     "homepage": "https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/",
     "starred_at": "2026-09-24T11:07:05Z"
@@ -221,7 +221,7 @@
       "tauri",
       "wsl-support"
     ],
-    "stars": 137127,
+    "stars": 137155,
     "forks": 9338,
     "archived": false,
     "homepage": "https://ccswitch.io",
@@ -272,8 +272,8 @@
       "skill",
       "workflow-automation"
     ],
-    "stars": 75665,
-    "forks": 8792,
+    "stars": 75674,
+    "forks": 8797,
     "archived": false,
     "homepage": "",
     "starred_at": "2026-09-23T10:04:52Z"
@@ -356,8 +356,8 @@
       "vercel",
       "webui"
     ],
-    "stars": 88813,
-    "forks": 58975,
+    "stars": 88814,
+    "forks": 58973,
     "archived": false,
     "homepage": "https://nextchat.club",
     "starred_at": "2023-05-23T07:37:36Z"
@@ -369,7 +369,7 @@
     "description": "用 Express 和  Vue3 搭建的 ChatGPT 演示网页",
     "language": "Vue",
     "topics": [],
-    "stars": 31438,
+    "stars": 31439,
     "forks": 10659,
     "archived": true,
     "homepage": "",
@@ -383,7 +383,7 @@
     "language": "Python",
     "topics": [],
     "stars": 33662,
-    "forks": 4348,
+    "forks": 4349,
     "archived": false,
     "homepage": "",
     "starred_at": "2022-03-21T03:43:27Z"
@@ -422,7 +422,7 @@
       "springai",
       "system-design"
     ],
-    "stars": 158884,
+    "stars": 158893,
     "forks": 46144,
     "archived": false,
     "homepage": "https://javaguide.cn",
@@ -457,7 +457,7 @@
       "zookeeper"
     ],
     "stars": 79128,
-    "forks": 19149,
+    "forks": 19148,
     "archived": false,
     "homepage": "https://java.doocs.org",
     "starred_at": "2021-01-27T14:06:11Z"
