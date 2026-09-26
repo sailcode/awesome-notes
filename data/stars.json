@@ -91,7 +91,7 @@
       "leetcode-java",
       "leetcode-solutions"
     ],
-    "stars": 76710,
+    "stars": 76709,
     "forks": 13860,
     "archived": false,
     "homepage": "https://www.algomooc.com",
@@ -168,8 +168,8 @@
       "tutorial-exercises",
       "tutorials"
     ],
-    "stars": 549574,
-    "forks": 51636,
+    "stars": 549631,
+    "forks": 51637,
     "archived": false,
     "homepage": "https://codecrafters.io",
     "starred_at": "2026-09-24T11:11:04Z"
@@ -187,8 +187,8 @@
       "shadowrocket",
       "v2ray"
     ],
-    "stars": 30555,
-    "forks": 2030,
+    "stars": 30560,
+    "forks": 2031,
     "archived": false,
     "homepage": "https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/",
     "starred_at": "2026-09-24T11:07:05Z"
@@ -221,8 +221,8 @@
       "tauri",
       "wsl-support"
     ],
-    "stars": 136836,
-    "forks": 9323,
+    "stars": 136912,
+    "forks": 9327,
     "archived": false,
     "homepage": "https://ccswitch.io",
     "starred_at": "2026-09-24T08:32:37Z"
@@ -272,8 +272,8 @@
       "skill",
       "workflow-automation"
     ],
-    "stars": 75645,
-    "forks": 8786,
+    "stars": 75646,
+    "forks": 8787,
     "archived": false,
     "homepage": "",
     "starred_at": "2026-09-23T10:04:52Z"
@@ -357,7 +357,7 @@
       "webui"
     ],
     "stars": 88813,
-    "forks": 58985,
+    "forks": 58981,
     "archived": false,
     "homepage": "https://nextchat.club",
     "starred_at": "2023-05-23T07:37:36Z"
@@ -382,7 +382,7 @@
     "description": "You like pytorch? You like micrograd? You love tinygrad! ❤️ ",
     "language": "Python",
     "topics": [],
-    "stars": 33658,
+    "stars": 33660,
     "forks": 4348,
     "archived": false,
     "homepage": "",
@@ -422,8 +422,8 @@
       "springai",
       "system-design"
     ],
-    "stars": 158871,
-    "forks": 46143,
+    "stars": 158874,
+    "forks": 46144,
     "archived": false,
     "homepage": "https://javaguide.cn",
     "starred_at": "2021-08-31T04:00:53Z"
@@ -456,7 +456,7 @@
       "springcloud-config",
       "zookeeper"
     ],
-    "stars": 79126,
+    "stars": 79127,
     "forks": 19149,
     "archived": false,
     "homepage": "https://java.doocs.org",
@@ -469,8 +469,8 @@
     "description": "Deep Learning Book Chinese Translation",
     "language": "TeX",
     "topics": [],
-    "stars": 37649,
-    "forks": 9127,
+    "stars": 37651,
+    "forks": 9128,
     "archived": false,
     "homepage": "https://exacity.github.io/deeplearningbook-chinese",
     "starred_at": "2017-11-19T10:37:56Z"

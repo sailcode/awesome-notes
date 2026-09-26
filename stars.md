@@ -32,7 +32,7 @@ Jev / TypeSafe System One 中文精选列表：官方资料、SDK、爆款应用
 
 Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
 
-`JavaScript` · ⭐ 158,871 · Starred 2021-08-31
+`JavaScript` · ⭐ 158,874 · Starred 2021-08-31
 
 `agent` `ai` `context-engineering` `deepseek` `interview` `java` `mcp` `mysql`
 
@@ -90,7 +90,7 @@ Jupiter是一款性能非常不错的, 轻量级的分布式服务框架
 
 😮 Core Interview Questions & Answers For Experienced Java(Backend) Developers | 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识
 
-`Java` · ⭐ 79,126 · Starred 2021-01-27
+`Java` · ⭐ 79,127 · Starred 2021-01-27
 
 `advanced-java` `distributed-search-engine` `distributed-systems` `doocs` `dubbo` `elasticsearch` `eureka` `feign`
 
@@ -100,7 +100,7 @@ Jupiter是一款性能非常不错的, 轻量级的分布式服务框架
 
 A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
 
-`Python` · ⭐ 75,645 · Starred 2026-09-23
+`Python` · ⭐ 75,646 · Starred 2026-09-23
 
 `agent-skills` `ai-agents` `antigravity` `automation` `claude` `claude-code` `codex` `composio`
 
@@ -126,7 +126,7 @@ Apollo is a reliable configuration management system suitable for microservice c
 
 Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路,完整单步/回看/变速/语音讲解在 algomooc.com）
 
-`Java` · ⭐ 76,710 · Starred 2026-09-24
+`Java` · ⭐ 76,709 · Starred 2026-09-24
 
 `animation` `leetcode` `leetcode-c` `leetcode-java` `leetcode-solutions`
 
@@ -142,7 +142,7 @@ SDL-based reimplementation of the classic Chinese-language RPG known as PAL.
 
 Master programming by recreating your favorite technologies from scratch.
 
-`Markdown` · ⭐ 549,574 · Starred 2026-09-24
+`Markdown` · ⭐ 549,631 · Starred 2026-09-24
 
 `awesome-list` `free` `programming` `tutorial-code` `tutorial-exercises` `tutorials`
 
@@ -150,7 +150,7 @@ Master programming by recreating your favorite technologies from scratch.
 
 提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。
 
-`Unknown` · ⭐ 30,555 · Starred 2026-09-24
+`Unknown` · ⭐ 30,560 · Starred 2026-09-24
 
 `adblock` `gfw` `proxy` `shadowrocket` `v2ray`
 
@@ -158,7 +158,7 @@ Master programming by recreating your favorite technologies from scratch.
 
 A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io
 
-`Rust` · ⭐ 136,836 · Starred 2026-09-24
+`Rust` · ⭐ 136,912 · Starred 2026-09-24
 
 `ai-tools` `claude-code` `codex` `desktop-app` `grok` `grokbuild` `hermes` `hermes-agent`
 
@@ -180,7 +180,7 @@ A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, 
 
 You like pytorch? You like micrograd? You love tinygrad! ❤️ 
 
-`Python` · ⭐ 33,658 · Starred 2022-03-21
+`Python` · ⭐ 33,660 · Starred 2022-03-21
 
 ### [lllhhh/BooksKeeper](https://github.com/lllhhh/BooksKeeper)
 
@@ -192,4 +192,4 @@ You like pytorch? You like micrograd? You love tinygrad! ❤️
 
 Deep Learning Book Chinese Translation
 
-`TeX` · ⭐ 37,649 · Starred 2017-11-19
+`TeX` · ⭐ 37,651 · Starred 2017-11-19
