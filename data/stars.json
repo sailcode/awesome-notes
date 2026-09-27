@@ -57,7 +57,7 @@
       "spring-boot",
       "spring-cloud"
     ],
-    "stars": 29816,
+    "stars": 29817,
     "forks": 10153,
     "archived": false,
     "homepage": "https://www.apolloconfig.com",
@@ -168,8 +168,8 @@
       "tutorial-exercises",
       "tutorials"
     ],
-    "stars": 550091,
-    "forks": 51667,
+    "stars": 550146,
+    "forks": 51673,
     "archived": false,
     "homepage": "https://codecrafters.io",
     "starred_at": "2026-09-24T11:11:04Z"
@@ -187,7 +187,7 @@
       "shadowrocket",
       "v2ray"
     ],
-    "stars": 30620,
+    "stars": 30625,
     "forks": 2037,
     "archived": false,
     "homepage": "https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/",
@@ -221,8 +221,8 @@
       "tauri",
       "wsl-support"
     ],
-    "stars": 137475,
-    "forks": 9343,
+    "stars": 137479,
+    "forks": 9344,
     "archived": false,
     "homepage": "https://ccswitch.io",
     "starred_at": "2026-09-24T08:32:37Z"
@@ -272,8 +272,8 @@
       "skill",
       "workflow-automation"
     ],
-    "stars": 75732,
-    "forks": 8809,
+    "stars": 75739,
+    "forks": 8812,
     "archived": false,
     "homepage": "",
     "starred_at": "2026-09-23T10:04:52Z"
@@ -356,8 +356,8 @@
       "vercel",
       "webui"
     ],
-    "stars": 88820,
-    "forks": 58969,
+    "stars": 88819,
+    "forks": 58970,
     "archived": false,
     "homepage": "https://nextchat.club",
     "starred_at": "2023-05-23T07:37:36Z"
@@ -382,7 +382,7 @@
     "description": "You like pytorch? You like micrograd? You love tinygrad! ❤️ ",
     "language": "Python",
     "topics": [],
-    "stars": 33668,
+    "stars": 33669,
     "forks": 4350,
     "archived": false,
     "homepage": "",
@@ -457,7 +457,7 @@
       "zookeeper"
     ],
     "stars": 79126,
-    "forks": 19147,
+    "forks": 19148,
     "archived": false,
     "homepage": "https://java.doocs.org",
     "starred_at": "2021-01-27T14:06:11Z"
