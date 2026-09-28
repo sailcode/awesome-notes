@@ -4,277 +4,482 @@ import requests
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 
+
 USERNAME = os.environ["GITHUB_USERNAME"]
 
 API_URL = f"https://api.github.com/users/{USERNAME}/starred"
 
-headers = {
+HEADERS = {
     "Accept": "application/vnd.github.star+json",
-    "X-GitHub-Api-Version": "2026-03-10",
+    "X-GitHub-Api-Version": "2022-11-28",
 }
 
-all_stars = []
-page = 1
-
-while True:
-    response = requests.get(
-        API_URL,
-        headers=headers,
-        params={
-            "per_page": 100,
-            "page": page,
-            "sort": "created",
-            "direction": "desc",
-        },
-        timeout=30,
-    )
-
-    response.raise_for_status()
-    items = response.json()
-
-    if not items:
-        break
-
-    all_stars.extend(items)
-
-    if len(items) < 100:
-        break
-
-    page += 1
-
-
-stars = []
-
-for item in all_stars:
-    repo = item["repo"]
-
-    stars.append({
-        "name": repo["name"],
-        "full_name": repo["full_name"],
-        "url": repo["html_url"],
-        "description": repo.get("description"),
-        "language": repo.get("language"),
-        "topics": repo.get("topics", []),
-        "stars": repo.get("stargazers_count", 0),
-        "forks": repo.get("forks_count", 0),
-        "archived": repo.get("archived", False),
-        "homepage": repo.get("homepage"),
-        "starred_at": item.get("starred_at"),
-    })
-
-
-# -------------------------
-# 保存 JSON
-# -------------------------
-
-os.makedirs("data", exist_ok=True)
-
-with open("data/stars.json", "w", encoding="utf-8") as f:
-    json.dump(
-        stars,
-        f,
-        ensure_ascii=False,
-        indent=2,
-    )
-
-
-# -------------------------
-# 分类
-# -------------------------
 
 CATEGORY_RULES = {
-    "AI / Agent": {
+    "🤖 AI / Agent": {
         "ai",
+        "artificial-intelligence",
         "llm",
         "agent",
         "agents",
-        "langchain",
         "rag",
+        "langchain",
+        "langgraph",
         "machine-learning",
         "deep-learning",
-        "artificial-intelligence",
+        "generative-ai",
+        "chatgpt",
+        "openai",
+        "copilot",
     },
-
-    "Frontend": {
+    "🎨 Frontend": {
+        "frontend",
         "react",
         "vue",
-        "frontend",
-        "typescript",
+        "svelte",
         "javascript",
-        "ui",
+        "typescript",
         "css",
+        "html",
+        "ui",
+        "web",
+        "webapp",
     },
-
-    "Backend": {
+    "⚙️ Backend": {
         "backend",
-        "api",
         "server",
-        "spring",
+        "api",
         "fastapi",
         "django",
+        "spring",
+        "spring-boot",
         "nodejs",
+        "microservices",
+        "grpc",
     },
-
-    "Database": {
+    "🗄️ Database": {
         "database",
         "mysql",
         "postgresql",
         "mongodb",
         "redis",
+        "sqlite",
         "sql",
+        "vector-database",
     },
-
-    "DevTools": {
-        "developer-tools",
+    "🛠️ DevTools": {
         "cli",
         "terminal",
+        "developer-tools",
+        "devtools",
         "vscode",
         "ide",
-        "devtools",
+        "git",
+        "github",
+        "docker",
+        "kubernetes",
+        "automation",
     },
 }
 
 
-def classify(repo):
-    topics = set(t.lower() for t in repo["topics"])
+CATEGORY_ORDER = [
+    "🤖 AI / Agent",
+    "🎨 Frontend",
+    "⚙️ Backend",
+    "🗄️ Database",
+    "🛠️ DevTools",
+    "📦 Others",
+]
+
+
+def format_number(number):
+    if number >= 1_000_000:
+        value = number / 1_000_000
+        return f"{value:.1f}m".rstrip("0").rstrip(".")
+
+    if number >= 1_000:
+        value = number / 1_000
+        return f"{value:.1f}k".rstrip("0").rstrip(".")
+
+    return str(number)
+
+
+def clean_description(description):
+    if not description:
+        return "No description."
+
+    description = description.replace("\n", " ").strip()
+
+    while "  " in description:
+        description = description.replace("  ", " ")
+
+    return description
+
+
+def markdown_escape(text):
+    if not text:
+        return text
+
+    return (
+        text
+        .replace("|", "\\|")
+        .replace("\r", " ")
+        .replace("\n", " ")
+    )
+
+
+def category_anchor(category):
+    value = category
+
+    for emoji in ["🤖", "🎨", "⚙️", "🗄️", "🛠️", "📦"]:
+        value = value.replace(emoji, "")
+
+    value = value.strip().lower()
+    value = value.replace(" / ", "--")
+    value = value.replace("/", "")
+    value = value.replace(" ", "-")
+
+    return value
+
+
+def classify_repo(repo):
+    topics = {
+        topic.lower()
+        for topic in repo.get("topics", [])
+    }
+
+    language = (repo.get("language") or "").lower()
+
+    name_text = (
+        repo.get("full_name", "")
+        + " "
+        + (repo.get("description") or "")
+    ).lower()
 
     for category, keywords in CATEGORY_RULES.items():
         if topics & keywords:
             return category
 
-    language = (repo["language"] or "").lower()
+        for keyword in keywords:
+            if keyword in name_text:
+                return category
 
-    if language in {"typescript", "javascript", "html", "css"}:
-        return "Frontend"
+    if language in {
+        "typescript",
+        "javascript",
+        "html",
+        "css",
+        "vue",
+        "svelte",
+    }:
+        return "🎨 Frontend"
 
-    return "Others"
+    return "📦 Others"
 
 
-categories = defaultdict(list)
+def fetch_starred_repositories():
+    all_items = []
 
-for repo in stars:
-    categories[classify(repo)].append(repo)
+    page = 1
+
+    while True:
+        print(f"Fetching page {page}...")
+
+        response = requests.get(
+            API_URL,
+            headers=HEADERS,
+            params={
+                "per_page": 100,
+                "page": page,
+                "sort": "created",
+                "direction": "desc",
+            },
+            timeout=30,
+        )
+
+        response.raise_for_status()
+
+        items = response.json()
+
+        if not items:
+            break
+
+        all_items.extend(items)
+
+        if len(items) < 100:
+            break
+
+        page += 1
+
+    return all_items
 
 
-# -------------------------
-# 生成 stars.md
-# -------------------------
+def normalize_repositories(items):
+    repositories = []
 
-lines = []
+    for item in items:
+        repo = item["repo"]
 
-lines.append("# ⭐ GitHub Stars")
-lines.append("")
-lines.append(
-    f"共收藏 **{len(stars)}** 个 GitHub 项目。"
-)
-lines.append("")
+        repository = {
+            "name": repo.get("name"),
+            "full_name": repo.get("full_name"),
+            "url": repo.get("html_url"),
+            "description": repo.get("description"),
+            "language": repo.get("language"),
+            "topics": repo.get("topics", []),
+            "stars": repo.get("stargazers_count", 0),
+            "forks": repo.get("forks_count", 0),
+            "watchers": repo.get("watchers_count", 0),
+            "open_issues": repo.get("open_issues_count", 0),
+            "archived": repo.get("archived", False),
+            "fork": repo.get("fork", False),
+            "homepage": repo.get("homepage"),
+            "created_at": repo.get("created_at"),
+            "updated_at": repo.get("updated_at"),
+            "pushed_at": repo.get("pushed_at"),
+            "starred_at": item.get("starred_at"),
+        }
 
-category_order = [
-    "AI / Agent",
-    "Frontend",
-    "Backend",
-    "Database",
-    "DevTools",
-    "Others",
-]
+        repository["category"] = classify_repo(repository)
 
-for category in category_order:
+        repositories.append(repository)
 
-    repos = categories.get(category)
+    return repositories
 
-    if not repos:
-        continue
 
-    lines.append(f"## {category}")
+def save_json(repositories):
+    os.makedirs("data", exist_ok=True)
+
+    with open(
+        "data/stars.json",
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(
+            repositories,
+            file,
+            ensure_ascii=False,
+            indent=2,
+        )
+
+
+def generate_stars_markdown(repositories):
+    categories = defaultdict(list)
+
+    for repo in repositories:
+        categories[repo["category"]].append(repo)
+
+    for repos in categories.values():
+        repos.sort(
+            key=lambda item: item.get("stars", 0),
+            reverse=True,
+        )
+
+    updated_at = datetime.now(
+        timezone.utc
+    ).strftime("%Y-%m-%d")
+
+    lines = []
+
+    lines.append("# Awesome GitHub Stars")
+    lines.append("")
+    lines.append(
+        "> A curated collection of repositories "
+        "I've starred on GitHub."
+    )
+    lines.append("")
+    lines.append(
+        f"**{len(repositories)} repositories "
+        f"· Last updated {updated_at}**"
+    )
     lines.append("")
 
-    for repo in repos:
+    lines.append("## Contents")
+    lines.append("")
 
-        desc = repo["description"] or ""
-        language = repo["language"] or "Unknown"
+    for category in CATEGORY_ORDER:
+        repos = categories.get(category)
 
-        date = ""
+        if not repos:
+            continue
 
-        if repo["starred_at"]:
-            date = repo["starred_at"][:10]
+        anchor = category_anchor(category)
 
         lines.append(
-            f"### [{repo['full_name']}]({repo['url']})"
+            f"- [{category}](#{anchor}) "
+            f"({len(repos)})"
         )
 
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+
+    for category in CATEGORY_ORDER:
+        repos = categories.get(category)
+
+        if not repos:
+            continue
+
+        lines.append(f"## {category}")
         lines.append("")
 
-        if desc:
-            lines.append(desc)
-            lines.append("")
+        for repo in repos:
+            full_name = repo["full_name"]
+            url = repo["url"]
 
-        lines.append(
-            f"`{language}` · ⭐ {repo['stars']:,} · Starred {date}"
-        )
-
-        if repo["topics"]:
-            lines.append("")
-            lines.append(
-                " ".join(
-                    f"`{topic}`"
-                    for topic in repo["topics"][:8]
+            description = markdown_escape(
+                clean_description(
+                    repo.get("description")
                 )
+            )
+
+            language = repo.get("language")
+            stars = repo.get("stars", 0)
+
+            meta = []
+
+            if language:
+                meta.append(f"`{language}`")
+
+            meta.append(
+                f"⭐ {format_number(stars)}"
+            )
+
+            if repo.get("archived"):
+                meta.append("`Archived`")
+
+            meta_text = " ".join(meta)
+
+            lines.append(
+                f"- [{full_name}]({url})"
+                f" - {description} "
+                f"{meta_text}"
             )
 
         lines.append("")
 
+    with open(
+        "stars.md",
+        "w",
+        encoding="utf-8",
+    ) as file:
+        file.write("\n".join(lines))
 
-with open("stars.md", "w", encoding="utf-8") as f:
-    f.write("\n".join(lines))
 
-
-# -------------------------
-# README
-# -------------------------
-
-languages = Counter(
-    repo["language"]
-    for repo in stars
-    if repo["language"]
-)
-
-top_languages = languages.most_common(10)
-
-readme = []
-
-readme.append("# My GitHub Stars")
-readme.append("")
-readme.append(
-    "自动同步和整理我在 GitHub 收藏的开源项目。"
-)
-readme.append("")
-
-readme.append("## 📊 Statistics")
-readme.append("")
-readme.append(f"- ⭐ Total: **{len(stars)}**")
-readme.append(
-    f"- 📂 Categories: **{len([x for x in categories.values() if x])}**"
-)
-readme.append("")
-
-readme.append("### Languages")
-readme.append("")
-
-for language, count in top_languages:
-    readme.append(
-        f"- {language}: {count}"
+def generate_readme(repositories):
+    languages = Counter(
+        repo["language"]
+        for repo in repositories
+        if repo.get("language")
     )
 
-readme.append("")
-readme.append(
-    "👉 [查看全部收藏](stars.md)"
-)
-readme.append("")
+    categories = Counter(
+        repo["category"]
+        for repo in repositories
+    )
 
-readme.append(
-    f"_Last updated: "
-    f"{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}_"
-)
+    top_languages = languages.most_common(10)
 
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write("\n".join(readme))
+    updated_at = datetime.now(
+        timezone.utc
+    ).strftime("%Y-%m-%d %H:%M UTC")
+
+    lines = []
+
+    lines.append("# ⭐ My GitHub Stars")
+    lines.append("")
+    lines.append(
+        "> Automatically synchronized collection "
+        "of repositories I've starred on GitHub."
+    )
+    lines.append("")
+
+    lines.append(
+        f"**Total: {len(repositories)} repositories**"
+    )
+    lines.append("")
+
+    lines.append("## 📚 Browse")
+    lines.append("")
+    lines.append(
+        "👉 **[View all starred repositories](stars.md)**"
+    )
+    lines.append("")
+
+    lines.append("## 📂 Categories")
+    lines.append("")
+
+    for category in CATEGORY_ORDER:
+        count = categories.get(category, 0)
+
+        if count == 0:
+            continue
+
+        anchor = category_anchor(category)
+
+        lines.append(
+            f"- [{category}](stars.md#{anchor}) "
+            f"— {count}"
+        )
+
+    lines.append("")
+
+    if top_languages:
+        lines.append("## 💻 Languages")
+        lines.append("")
+
+        for language, count in top_languages:
+            lines.append(
+                f"- **{language}** — {count}"
+            )
+
+        lines.append("")
+
+    lines.append("---")
+    lines.append("")
+    lines.append(
+        "Automatically synchronized by "
+        "GitHub Actions."
+    )
+    lines.append("")
+    lines.append(
+        f"_Last updated: {updated_at}_"
+    )
+
+    with open(
+        "README.md",
+        "w",
+        encoding="utf-8",
+    ) as file:
+        file.write("\n".join(lines))
+
+
+def main():
+    print(
+        f"Syncing starred repositories for: "
+        f"{USERNAME}"
+    )
+
+    items = fetch_starred_repositories()
+
+    print(
+        f"Found {len(items)} starred repositories."
+    )
+
+    repositories = normalize_repositories(items)
+
+    save_json(repositories)
+
+    generate_stars_markdown(repositories)
+
+    generate_readme(repositories)
+
+    print("Done.")
+    print("- README.md updated")
+    print("- stars.md updated")
+    print("- data/stars.json updated")
+
+
+if __name__ == "__main__":
+    main()
