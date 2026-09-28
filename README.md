@@ -1,25 +1,35 @@
-# My GitHub Stars
+# ⭐ My GitHub Stars
 
-自动同步和整理我在 GitHub 收藏的开源项目。
+> Automatically synchronized collection of repositories I've starred on GitHub.
 
-## 📊 Statistics
+**Total: 24 repositories**
 
-- ⭐ Total: **24**
-- 📂 Categories: **6**
+## 📚 Browse
 
-### Languages
+👉 **[View all starred repositories](stars.md)**
 
-- Java: 6
-- JavaScript: 4
-- Python: 3
-- TypeScript: 2
-- HTML: 2
-- C: 1
-- Markdown: 1
-- Rust: 1
-- Vue: 1
-- TeX: 1
+## 📂 Categories
 
-👉 [查看全部收藏](stars.md)
+- [🤖 AI / Agent](stars.md#ai--agent) — 10
+- [🎨 Frontend](stars.md#frontend) — 5
+- [⚙️ Backend](stars.md#backend) — 3
+- [📦 Others](stars.md#others) — 6
 
-_Last updated: 2026-09-28 05:28 UTC_
+## 💻 Languages
+
+- **Java** — 6
+- **JavaScript** — 4
+- **Python** — 3
+- **TypeScript** — 2
+- **HTML** — 2
+- **C** — 1
+- **Markdown** — 1
+- **Rust** — 1
+- **Vue** — 1
+- **TeX** — 1
+
+---
+
+Automatically synchronized by GitHub Actions.
+
+_Last updated: 2026-09-28 08:59 UTC_
