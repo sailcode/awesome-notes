@@ -2,7 +2,7 @@
 
 > A curated collection of repositories I've starred on GitHub.
 
-**24 repositories · Last updated 2026-10-02**
+**24 repositories · Last updated 2026-10-03**
 
 ## Contents
 
@@ -16,7 +16,7 @@
 ## 🤖 AI / Agent
 
 - [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) - Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发 `JavaScript` ⭐ 159.0k
-- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) - A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io `Rust` ⭐ 139.5k
+- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) - A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io `Rust` ⭐ 139.6k
 - [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows. `TypeScript` ⭐ 88.8k
 - [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) - A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows `Python` ⭐ 76.4k
 - [Chanzhaoyu/chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web) - 用 Express 和 Vue3 搭建的 ChatGPT 演示网页 `Vue` ⭐ 31.4k `Archived`
@@ -28,7 +28,7 @@
 
 ## 🎨 Frontend
 
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - Master programming by recreating your favorite technologies from scratch. `Markdown` ⭐ 551.2k
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - Master programming by recreating your favorite technologies from scratch. `Markdown` ⭐ 551.3k
 - [apache/echarts](https://github.com/apache/echarts) - Apache ECharts is a powerful, interactive charting and data visualization library for browser `TypeScript` ⭐ 67.4k
 - [apolloconfig/apollo](https://github.com/apolloconfig/apollo) - Apollo is a reliable configuration management system suitable for microservice configuration management scenarios. `Java` ⭐ 29.8k
 - [Ovilia/lipstick](https://github.com/Ovilia/lipstick) - 口红颜色可视化 - 为什么你的女神总缺一支口红 `JavaScript` ⭐ 2.8k
