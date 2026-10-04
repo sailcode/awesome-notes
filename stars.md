@@ -2,7 +2,7 @@
 
 > A curated collection of repositories I've starred on GitHub.
 
-**24 repositories · Last updated 2026-10-03**
+**24 repositories · Last updated 2026-10-04**
 
 ## Contents
 
@@ -28,7 +28,7 @@
 
 ## 🎨 Frontend
 
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - Master programming by recreating your favorite technologies from scratch. `Markdown` ⭐ 551.3k
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - Master programming by recreating your favorite technologies from scratch. `Markdown` ⭐ 551.4k
 - [apache/echarts](https://github.com/apache/echarts) - Apache ECharts is a powerful, interactive charting and data visualization library for browser `TypeScript` ⭐ 67.4k
 - [apolloconfig/apollo](https://github.com/apolloconfig/apollo) - Apollo is a reliable configuration management system suitable for microservice configuration management scenarios. `Java` ⭐ 29.8k
 - [Ovilia/lipstick](https://github.com/Ovilia/lipstick) - 口红颜色可视化 - 为什么你的女神总缺一支口红 `JavaScript` ⭐ 2.8k
