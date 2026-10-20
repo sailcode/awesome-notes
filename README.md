@@ -2,7 +2,7 @@
 
 > Automatically synchronized collection of repositories I've starred on GitHub.
 
-**Total: 33 repositories**
+**Total: 38 repositories**
 
 ## 📚 Browse
 
@@ -10,26 +10,26 @@
 
 ## 📂 Categories
 
-- [🤖 AI / Agent](stars.md#ai--agent) — 16
-- [🎨 Frontend](stars.md#frontend) — 8
+- [🤖 AI / Agent](stars.md#ai--agent) — 18
+- [🎨 Frontend](stars.md#frontend) — 9
 - [⚙️ Backend](stars.md#backend) — 3
-- [📦 Others](stars.md#others) — 6
+- [📦 Others](stars.md#others) — 8
 
 ## 💻 Languages
 
-- **TypeScript** — 8
+- **TypeScript** — 9
+- **Python** — 6
 - **Java** — 6
 - **JavaScript** — 5
-- **Python** — 4
 - **HTML** — 3
+- **C++** — 1
+- **Go** — 1
 - **C** — 1
 - **Markdown** — 1
 - **Rust** — 1
-- **Vue** — 1
-- **TeX** — 1
 
 ---
 
 Automatically synchronized by GitHub Actions.
 
-_Last updated: 2026-10-19 18:43 UTC_
+_Last updated: 2026-10-20 17:01 UTC_
